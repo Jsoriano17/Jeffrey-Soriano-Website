@@ -13,6 +13,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 25px;
+}
+
 /************************
 navigation
 */
@@ -21,26 +25,53 @@ nav {
     font-size: 30px;
 }
 
+.icons {
+    width: 55px; 
+    height: 55px;
+    margin: 10px;
+}
 /************************
 web background
 */
 
 .web-back {
-    height: 900px;
+    height: 950px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
 }
 
+.draw-gif {
+    margin-left: 3%;
+    margin-right: 5%;
+}
 /************************
 sec 1
 */
 
 .sec-1 {
  background: #19f7b1;
- height: 800px;
+ height: 1000px;
  width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
  -webkit-box-shadow: 0px 7px 1px #000000;
  -moz-box-shadow: 0px 7px 1px #000000;
  box-shadow: 0px 7px 10px #000000;
+ padding: 70px;
+}
+
+.sec-1-con {
+    flex-direction: column;
+    padding-right: 20%;
+}
+
+.face-gif {
+    width: 600px;
+    height: 650px;
 }
 
 
@@ -49,14 +80,28 @@ sec 2
 */
 
 .sec-2 {
-    background: #8046f5;
+    background: #a376fc;
     height: 900px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     -webkit-box-shadow: 0px 7px 1px #000000;
     -moz-box-shadow: 0px 7px 1px #000000;
     box-shadow: 0px 7px 10px #000000;
+    padding: 70px;
    }
-   
+
+   .skl-clm {
+       display: flex;
+       flex-direction: column;
+
+   }
+
+   .skl-clm ul {
+       font-size: 25px;
+       font-weight: bold;
+   }
 
 
 /************************
