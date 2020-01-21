@@ -110,10 +110,36 @@ sec 3
 
 .sec-3 {
     background: #343434;
-    height: 1000px;
+    height: 3000px;
     width: 100%;
    }
+
+   .pro {
+        display: flex;
+        justify-content: center;
+        color: white;
+   }
+
+   .web-img {
+       width: 540px;
+       height: 275px;
+       margin: 10%;
+       margin-left: 25px;
+       margin-right: 25px;
+       cursor: pointer;
+   }
+
+   .row-1 {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
    
+   .row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 /************************
