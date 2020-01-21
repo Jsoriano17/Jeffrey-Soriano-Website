@@ -17,25 +17,58 @@ body {
 navigation
 */
 
+nav {
+    font-size: 30px;
+}
 
 /************************
 web background
 */
 
+.web-back {
+    height: 900px;
+    width: 100%;
+}
 
 /************************
 sec 1
 */
+
+.sec-1 {
+ background: #19f7b1;
+ height: 800px;
+ width: 100%;
+ -webkit-box-shadow: 0px 7px 1px #000000;
+ -moz-box-shadow: 0px 7px 1px #000000;
+ box-shadow: 0px 7px 10px #000000;
+}
 
 
 /************************
 sec 2
 */
 
+.sec-2 {
+    background: #8046f5;
+    height: 900px;
+    width: 100%;
+    -webkit-box-shadow: 0px 7px 1px #000000;
+    -moz-box-shadow: 0px 7px 1px #000000;
+    box-shadow: 0px 7px 10px #000000;
+   }
+   
+
 
 /************************
 sec 3
 */
+
+.sec-3 {
+    background: #343434;
+    height: 1000px;
+    width: 100%;
+   }
+   
 
 
 /************************
