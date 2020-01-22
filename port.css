@@ -57,6 +57,14 @@ web background
     cursor: pointer;
 }
 
+.qr-gif {
+    width: 207px;
+    height: 207px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 /************************
 sec 1
 */
