@@ -110,14 +110,25 @@ sec 3
 
 .sec-3 {
     background: #343434;
-    height: 3000px;
+    height: 1300px;
     width: 100%;
+    padding-top: 150px;
    }
 
    .pro {
         display: flex;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
         color: white;
+   }
+
+   .line {
+        height: 2px;
+        width: 10%;
+        background: white;
+        margin-left: 25px;
+        margin-right: 25px;
    }
 
    .web-img {
@@ -127,7 +138,15 @@ sec 3
        margin-left: 25px;
        margin-right: 25px;
        cursor: pointer;
+       transition: all 0.2s ease-in-out;
    }
+
+   .web-img:hover {
+    width: 640px;
+    height: 375px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
 
    .row-1 {
        display: flex;
@@ -141,16 +160,41 @@ sec 3
     justify-content: center;
 }
 
+    .img-clm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-/************************
-sec 4
-*/
+    .web-icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: all 0.1s ease-in-out;
+    }
 
+    .web-icon:hover {
+        width: 40px;
+        height: 40px;
+    }
 
-/************************
-sec 5
-*/
+    .web-icon-con {
+        flex-direction: row;
+    }
 
 /************************
 contacts
 */
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    background: #343434;
+    height: 1300px;
+    width: 100%;
+}
+
+.contacts h2 {
+    color: white;
+}
