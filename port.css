@@ -17,6 +17,14 @@ p {
     font-size: 25px;
 }
 
+.title {
+    margin-bottom: 50px;
+}
+
+.title-sk {
+    margin-bottom: 30px;
+}
+
 /************************
 navigation
 */
@@ -39,8 +47,8 @@ web background
     width: 100%;
     display: flex;
     flex-direction: row;
-   align-items: center;
-   position: relative;
+    align-items: center;
+    position: relative;
 }
 
 .draw-gif {
