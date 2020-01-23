@@ -132,6 +132,18 @@ sec 2
        font-weight: 350;
    }
 
+   .items-sk {
+       width: 925px;
+       height: 900px;
+   }
+
+   .n-gif {
+       top: 18%;
+       right: 26.7%;
+       width: 200px;
+       height: 200px;
+       position: absolute;
+   }
 
 /************************
 sec 3
