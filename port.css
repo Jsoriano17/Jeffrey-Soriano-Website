@@ -218,10 +218,6 @@ sec 3
         transition: all 0.1s ease-in-out;
     }
 
-    .web-icon:hover {
-        width: 40px;
-        height: 40px;
-    }
 
     .web-icon-con {
         flex-direction: row;
