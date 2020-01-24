@@ -54,6 +54,8 @@ web background
 .draw-gif {
     margin-left: 3%;
     margin-right: 5%;
+    max-width: 100%;
+    height: auto;
 }
 
 .qr {
