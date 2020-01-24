@@ -122,13 +122,14 @@ sec 2
 
 .sec-2 {
     background: #a376fc;
-    height: 1100px;
+    height: 105vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     padding: 70px;
+    padding-top: 130px;
    }
 
    .skl-clm {
@@ -138,20 +139,21 @@ sec 2
    }
 
    .skl-clm ul {
-       font-size: 25px;
+       font-size:  1.30vw;
        font-weight: 350;
    }
 
    .items-sk {
-       width: 925px;
-       height: 900px;
+       width: 48.17vw;
+       height: 92.87vh;
+       max-width: 100%;
    }
 
    .n-gif {
-       top: 18%;
-       right: 26.7%;
-       width: 200px;
-       height: 200px;
+       top: 19.09vh;
+       right: 26.56vw;
+       width: 10.41vw;
+       height: 20.63vh;
        position: absolute;
    }
 
