@@ -25,6 +25,19 @@ p {
     margin-bottom: 30px;
 }
 
+.colm-1 {width: 8.33%;}
+.colm-2 {width: 16.66%;}
+.colm-3 {width: 25%;}
+.colm-4 {width: 33.33%;}
+.colm-5 {width: 41.66%;}
+.colm-6 {width: 50%;}
+.colm-7 {width: 58.33%;}
+.colm-8 {width: 66.66%;}
+.colm-9 {width: 75%;}
+.colm-10 {width: 83.33%;}
+.colm-11 {width: 91.66%;}
+.colm-12 {width: 100%;}
+
 /************************
 navigation
 */
@@ -59,8 +72,8 @@ web background
 }
 
 .qr {
-    max-width: 100%;
-    height: auto;
+    width: 147px;
+    height: 147px;
     right: 0px;
     bottom: 0px;
     position: absolute;
