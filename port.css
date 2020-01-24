@@ -161,7 +161,7 @@ sec 3
 
 .sec-3 {
     background: #343434;
-    height: 144.47vh;
+    height: 142.41vh;
     width: 100%;
     padding-top: 14.74vh;
     position: relative;
@@ -173,7 +173,7 @@ sec 3
         justify-content: center;
         align-items: center;
         color: white;
-        margin-bottom: 14.74vh;
+        margin-bottom: 13.41vh;
    }
 
    .line {
@@ -280,7 +280,7 @@ contacts
     flex-direction: column;
     justify-content: center;
     background: #343434;
-    height: 1000px;
+    height: 103.19vh;
     width: 100%;
     position: relative;
 }
@@ -288,7 +288,7 @@ contacts
 .contacts h2 {
     text-align: center;
     color: white;
-    margin-bottom: 120px;
+    margin-bottom: 12.38vh;
 }
 
 
@@ -301,18 +301,18 @@ contacts
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10.31vh;
 }
 
 .icons-con {
-    width: 100px; 
-    height: 100px;
+    width: 5.208vw; 
+    height: 10.31vh;
     margin: 0 30px;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
 }
 
 .icons-con:hover {
-    width: 150px; 
-    height: 150px;
+    width: 7.812vw; 
+    height: 15.47vh;
 }
