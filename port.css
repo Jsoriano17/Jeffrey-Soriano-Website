@@ -17,6 +17,12 @@ p {
     font-size:  1.30vw;
 }
 
+.heading {
+    font-size: 3.75vw;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .title {
     font-size: 3.75vw;
     font-weight: 300;
@@ -62,8 +68,8 @@ web background
 }
 
 .qr {
-    width: 147px;
-    height: 147px;
+    width: 7.65vw;
+    height: 15.17vh;
     right: 0px;
     bottom: 0px;
     position: absolute;
@@ -72,8 +78,8 @@ web background
 }
 
 .qr-gif {
-    width: 207px;
-    height: 207px;
+    width: 10.78vw;
+    height: 21.36vh;
     right: 0;
     bottom: 0;
     position: absolute;
