@@ -39,14 +39,15 @@ navigation
 */
 
 nav {
-    font-size: 30px;
+    font-size:  1.562vw;
 }
 
 .icons {
-    width: 55px; 
-    height: 55px;
+    width: 2.864vw; 
+    height: 5.675vh;
     margin: 10px;
 }
+
 /************************
 web background
 */
