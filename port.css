@@ -14,29 +14,19 @@ body {
 }
 
 p {
-    font-size: 25px;
+    font-size:  1.30vw;
 }
 
 .title {
+    font-size: 3.75vw;
+    font-weight: 300;
+    line-height: 1.2;
     margin-bottom: 50px;
 }
 
 .title-sk {
     margin-bottom: 30px;
 }
-
-.colm-1 {width: 8.33%;}
-.colm-2 {width: 16.66%;}
-.colm-3 {width: 25%;}
-.colm-4 {width: 33.33%;}
-.colm-5 {width: 41.66%;}
-.colm-6 {width: 50%;}
-.colm-7 {width: 58.33%;}
-.colm-8 {width: 66.66%;}
-.colm-9 {width: 75%;}
-.colm-10 {width: 83.33%;}
-.colm-11 {width: 91.66%;}
-.colm-12 {width: 100%;}
 
 /************************
 navigation
@@ -95,7 +85,7 @@ sec 1
 
 .sec-1 {
  background: #19f7b1;
- height: 1100px;
+ height: 100vh;
  width: 100%;
  display: flex;
  flex-direction: row;
@@ -108,11 +98,15 @@ sec 1
 .sec-1-con {
     flex-direction: column;
     padding-right: 20%;
+    max-width: 100%;
+    height: 50vh;
 }
 
 .face-gif {
-    width: 600px;
-    height: 650px;
+    width: 31.25vw;
+    height: 67.1vh;
+    max-width: 100%;
+   
 }
 
 .sh {
@@ -193,6 +187,7 @@ sec 3
    .web-img {
        width: 540px;
        height: 275px;
+       max-width: 100%;
        margin: 10%;
        margin-left: 25px;
        margin-right: 25px;
