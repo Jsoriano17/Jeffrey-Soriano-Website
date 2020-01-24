@@ -161,9 +161,9 @@ sec 3
 
 .sec-3 {
     background: #343434;
-    height: 1300px;
+    height: 144.47vh;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 14.74vh;
     position: relative;
    }
 
@@ -173,31 +173,31 @@ sec 3
         justify-content: center;
         align-items: center;
         color: white;
-        margin-bottom: 100px;
+        margin-bottom: 14.74vh;
    }
 
    .line {
-        height: 2px;
-        width: 10%;
+        height: 0.206vh;
+        width: 10.41vw;
         background: white;
         margin-left: 25px;
         margin-right: 25px;
    }
 
    .web-img {
-       width: 540px;
-       height: 275px;
+       width: 28.12vw;
+       height: 28.37vh;
        max-width: 100%;
        margin: 10%;
-       margin-left: 25px;
-       margin-right: 25px;
+       margin-left: 2.579vh;
+       margin-right: 2.579vh;
        cursor: pointer;
        transition: all 0.2s ease-in-out;
    }
 
    .web-img:hover {
-    width: 640px;
-    height: 375px;
+    width: 33.33vw;
+    height: 38.69vh;
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
 }
 
@@ -221,8 +221,8 @@ sec 3
     }
 
     .web-icon {
-        width: 30px;
-        height: 30px;
+        width: 1.562vw;
+        height:  3.095vh;
         margin-left: 10px;
         margin-right: 10px;
         cursor: pointer;
@@ -235,19 +235,19 @@ sec 3
     }
 
     .phone1 {
-        width: 110px;
-        height: 215px;
+        width: 5.729vw;
+        height: 22.18vh;
         position: absolute;
-        top: 41%;
-        left: 25%;
+        top: 55.72vh;
+        left: 25.26vw;
     }
 
     .phone2 {
-        width: 110px;
-        height: 215px;
+        width: 5.729vw;
+        height: 22.18vh;
         position: absolute;
-        top: 41%;
-        left: 56%;
+        top: 55.72vh;
+        left: 55.72vw;
     }
 
     .shake:hover {
