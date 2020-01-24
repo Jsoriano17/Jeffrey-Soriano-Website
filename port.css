@@ -43,7 +43,7 @@ web background
 */
 
 .web-back {
-    height: 880px;
+    height: 91vh;
     width: 100%;
     display: flex;
     flex-direction: row;
