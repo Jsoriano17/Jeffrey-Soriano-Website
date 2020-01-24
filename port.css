@@ -55,16 +55,17 @@ web background
     margin-left: 3%;
     margin-right: 5%;
     max-width: 100%;
-    height: auto;
+    height: 83vh;
 }
 
 .qr {
-    width: 147px;
-    height: 147px;
+    max-width: 100%;
+    height: auto;
     right: 0px;
     bottom: 0px;
     position: absolute;
     cursor: pointer;
+    
 }
 
 .qr-gif {
