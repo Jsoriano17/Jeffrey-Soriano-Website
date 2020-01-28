@@ -441,6 +441,10 @@ phone TODO:
         font-size:  20px;
     }
     
+    .testing:focus {
+        outline: none;
+    }
+
     .icons {
         width: 2.864vw; 
         height: 5.675vh;
