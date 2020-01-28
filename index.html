@@ -206,20 +206,20 @@
             <img src="img/shadow.png" class="sh">
             <h2 class="heading">Lets Work Together.</h2>
             <div class="form text-light">
+              <form action="POST" data-netlify="true">
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" placeholder="name@example.com">
+                <input type="email" name="email" class="form-control" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Subject</label>
-                <input type="email" class="form-control" placeholder="type here">
+                <input type="email" name="subject" class="form-control" placeholder="type here">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" rows="3" placeholder="type something..."></textarea>
+                <textarea class="form-control" rows="3" placeholder="type something..." name="message"></textarea>
               </div>
-              <button type="button" class="btn btn-outline-light">submit</button>
-            </div class="form">
+              <button type="submit" class="btn btn-outline-light">submit</button>
             <div class="ic">
               <img src="contact-icons/gmail white.png" class="icons-con">
               <a href="https://www.instagram.com/soriadesigns/" target="_blank"><img src="contact-icons/instagram white.png" class="icons-con"></a>
