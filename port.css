@@ -534,7 +534,7 @@ phone TODO:
     */
     .sec-1-mobile {
         background: #19f7b1;
-        height: 1150px;
+        height: 180vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -586,7 +586,7 @@ phone TODO:
     
     .sec-2-mob {
         background: #a376fc;
-        height: 1750px;
+        height: 260vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -721,6 +721,7 @@ phone TODO:
             position: absolute;
             top: 200px;
             left: 265px;
+            display: none;
         }
     
         .phone2 {
@@ -729,6 +730,7 @@ phone TODO:
             position: absolute;
             top: 450px;
             left: 265px;
+            display: none;
         }
 
 
@@ -1059,6 +1061,7 @@ desktop TODO:
             position: absolute;
             top: 55.72vh;
             left: 25.26vw;
+            display: unset;
         }
     
         .phone2 {
@@ -1067,6 +1070,7 @@ desktop TODO:
             position: absolute;
             top: 55.72vh;
             left: 55.72vw;
+            display: unset;
         }
     
         .shake:hover {
