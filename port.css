@@ -715,16 +715,16 @@ phone TODO:
             width: 70px;
             height: 150px;
             position: absolute;
-            top: 25vh;
-            left: 70vw;
+            top: 200px;
+            left: 265px;
         }
     
         .phone2 {
             width: 70px;
             height: 150px;
             position: absolute;
-            top: 65vh;
-            left: 70vw;
+            top: 450px;
+            left: 265px;
         }
 
 
