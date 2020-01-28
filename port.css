@@ -457,7 +457,7 @@ phone TODO:
     */
     
     .web-back {
-        height: 95vh;
+        height: 97vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -534,7 +534,7 @@ phone TODO:
     */
     .sec-1-mobile {
         background: #19f7b1;
-        height: 180vh;
+        height: 1150px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -586,7 +586,7 @@ phone TODO:
     
     .sec-2-mob {
         background: #a376fc;
-        height: 260vh;
+        height: 1750px;
         width: 100%;
         display: flex;
         align-items: center;
