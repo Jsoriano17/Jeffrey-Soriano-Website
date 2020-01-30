@@ -397,6 +397,11 @@ contacts
     height: 15.47vh;
 }
 
+.resume {
+    text-align: center;
+    margin-top: 50px;
+}
+
 /************************
 phone TODO:
 */
@@ -743,7 +748,7 @@ phone TODO:
         flex-direction: column;
         justify-content: center;
         background: #343434;
-        height: 105vh;
+        height: 110vh;
         width: 100%;
         position: relative;
     }
