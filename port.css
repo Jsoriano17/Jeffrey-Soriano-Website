@@ -240,7 +240,7 @@ sec 3
 */
 
 .sec-3 {
-    background: #343434;
+    background: #80a2ff;
     height: 142.41vh;
     width: 100%;
     padding-top: 14.74vh;
@@ -359,7 +359,7 @@ contacts
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #343434;
+    background: #444444;
     height: 123.83vh;
     width: 100%;
     position: relative;
@@ -646,7 +646,7 @@ phone TODO:
     */
     
     .sec-3 {
-        background: #343434;
+        background: #80a2ff;
         height: 1750px;
         width: 100%;
         padding-top: 5vh;
@@ -658,7 +658,7 @@ phone TODO:
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            color: white;
+            color: black;
             margin-bottom: 0;
        }
     
@@ -679,12 +679,15 @@ phone TODO:
            margin-right: 0;
            cursor: pointer;
            transition: all 0.2s ease-in-out;
+           -webkit-box-shadow: 0 10px 6px -6px #242424;
+           -moz-box-shadow: 0 10px 6px -6px #242424;
+           box-shadow: 0 10px 6px -6px #242424;
        }
     
        .web-img:hover {
         width: 340px;
         height: 175px;
-        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
     
     
@@ -747,7 +750,7 @@ phone TODO:
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: #343434;
+        background: #444444;
         height: 110vh;
         width: 100%;
         position: relative;
@@ -986,7 +989,7 @@ desktop TODO:
     */
     
     .sec-3 {
-        background: #343434;
+        background: #80a2ff;
         height: 142.41vh;
         width: 100%;
         padding-top: 14.74vh;
@@ -998,8 +1001,8 @@ desktop TODO:
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            color: white;
-            margin-bottom: 13.41vh;
+            color: black;
+            margin-bottom: 5vh;
        }
     
        .line {
@@ -1019,12 +1022,15 @@ desktop TODO:
            margin-right: 2.579vh;
            cursor: pointer;
            transition: all 0.2s ease-in-out;
+           -webkit-box-shadow: 0 10px 6px -6px #242424;
+           -moz-box-shadow: 0 10px 6px -6px #242424;
+           box-shadow: 0 10px 6px -6px #242424;
        }
     
        .web-img:hover {
         width: 33.33vw;
         height: 38.69vh;
-        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
     
     
@@ -1107,8 +1113,8 @@ desktop TODO:
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: #343434;
-        height: 123.83vh;
+        background: #444444;
+        height: 110vh;
         width: 100%;
         position: relative;
     }
@@ -1125,7 +1131,7 @@ desktop TODO:
     }
     
     .ic {
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: center;
         align-items: center;
